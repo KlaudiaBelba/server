@@ -1,4 +1,4 @@
-import http,  from 'http';
+import http  from 'http';
 import fsp from 'fs/promises';
 
 
@@ -33,4 +33,3 @@ server.listen(port, hostname, () => {
 });
 
 
-export default server;
